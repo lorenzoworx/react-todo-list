@@ -36,10 +36,10 @@ export default function TodoItem({
           <span className={item.completed ? 'mark' : ''}>{title}</span>
         </div>
         <div>
-          <button type="button" onClick={handleEditClick}>
+          <button type="button" onClick={handleEditClick} className="svgBtn">
             <AiFillEdit />
           </button>
-          <button type="button" onClick={() => handleDelete(item.id)}>
+          <button type="button" onClick={() => handleDelete(item.id)} className="svgBtn">
             <AiFillDelete />
           </button>
         </div>
