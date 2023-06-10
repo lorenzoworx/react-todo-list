@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.todoApp {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todo-header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.todo-logic {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.input-text {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todoItem:last-child {
+  border-bottom: none;
+}
+
+.todoItem input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todoItem .edit-input {
+  width: 60%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.svgBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+button[type="button"] {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+svg {
+  vertical-align: middle;
 }

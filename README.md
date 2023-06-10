@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h1><b>math-magicians</b></h1>
+  <h1><b>To-do List</b></h1>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ math-magicians ] <a name="about-project"></a>
+# 📖 [ React Todo ] <a name="about-project"></a>
 
-**[ "math-magicians" ]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations and read a random math-related quote. 
+**[ "React Todo" ]** is a simple todo list webapp built with react. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,8 +67,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Calculator to perform maths operations.**
-- **API to fetch and store data.**
+- **Todo list app.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +91,7 @@ In order to run this project you need: any web-browser.
 
 ### Setup
 
-Clone this [repository](https://github.com/lorenzoworx/math-magicians.git) to your desired folder.
+Clone this [repository](https://github.com/lorenzoworx/react-todo-list.git) to your desired folder.
 
 ### Install
 
@@ -102,7 +101,7 @@ This project does not require installation.
 
 **To run the project follow the instructions below:-**
 
-- Clone this [repository](https://github.com/lorenzoworx/math-magicians.git) in your local machine with correct branch.
+- Clone this [repository](https://github.com/lorenzoworx/react-todo-list.git) in your local machine with correct branch.
 - First run **npm install**
 - Terminal:- **npm start** it will run on port 8080.
 
